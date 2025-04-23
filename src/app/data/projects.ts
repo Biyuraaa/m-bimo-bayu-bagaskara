@@ -85,11 +85,23 @@ export const projects: Project[] = [
   {
     id: "peta-gov",
     title: "PetaGov",
-    description:
-      "A RESTful API service for task management applications with authentication, task CRUD operations, user permissions, and data validation.",
+    description: "",
     image: "",
     category: getCategoryById("frontend")!,
     github: "https://github.com/eisenblume7/peta-gov",
+    skills: [
+      getSkillById("typescript")!,
+      getSkillById("nextjs")!,
+      getSkillById("tailwind")!,
+    ],
+  },
+  {
+    id: "wdc-thriftnity",
+    title: "WDC Thriftnity",
+    description: "",
+    image: "",
+    category: getCategoryById("frontend")!,
+    github: "https://github.com/rizaldonii/wdc-thrifnity",
     skills: [
       getSkillById("typescript")!,
       getSkillById("nextjs")!,
